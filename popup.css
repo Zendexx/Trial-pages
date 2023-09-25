@@ -7,7 +7,7 @@
 body {
     background-color: #edeef6;
     font-family: poppins, sans-serif;
-    background-image: url(images/floral-pattern3.jpg);
+    background-image: url(images/floral-pattern2.jpg);
 }
 /* ----------Header section --------------- */
 #header{
@@ -598,4 +598,146 @@ a {
     .card {
         width: calc(100% - 20px); /* Full width for cards on small screens */
     }
+}
+
+
+/* ------- About Section ----------------------------- */
+#about{
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.green-line {
+    border: none;
+    width: 45%;
+    padding-left: 15%;
+    border-top: 6px solid #205e43;
+  }
+#left-paragraph{
+  font-size: 35px;
+  font-weight: 80%;
+  padding-left: 15%;
+}
+#right-paragraph{
+  font-size: 20px;
+  font-weight: 80%;
+  padding-left: 35%;
+  padding-right: 15%;
+}
+#tricky-section {
+  background-color: #205e43;
+  color: #fff;
+  text-align: center;
+  padding: 40px;
+}
+
+.square-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.square {
+  width: 220px;
+  height: 220px;
+  background-color: #fff;
+  margin: 0 10px;
+}
+.square img{
+    width: 100%;
+    height: 100%;
+  } 
+
+  /*-------------- Testimonials --------------  */
+#testimonial_area{
+  padding: 10% 0;
+}
+.box-area{
+  padding: 30px;
+  position: relative;
+  display: block;
+  background: #fff;
+  color: #000;
+  box-shadow: rgba(0,0,0,0.35) 0 5px 15px;
+  margin: 40px 0;
+}
+.box-area h5{
+  font-size: 16px;
+  font-weight: 700;
+  color: #0a69ed;
+  margin-top: 30px;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+
+}
+.box-area span{
+  color: #262626;
+  display: block;
+  font-size: 13px;
+  margin: 0 0 10px;
+  font-weight: 400;
+
+}
+.box-area .content{
+  color: #262626;
+
+}
+.box-area .img-area{
+  width: 90px;
+  height: 90px;
+  position: absolute;
+  top: -40px;
+  left: 0;
+  bottom: 0;
+  margin: 0 auto;
+  right: 0;
+  z-index: 1;
+  border: 5px solid #fff;
+  border-radius: 50%;
+  box-shadow: 0 5px 4px rgba(0,0,0,0.5);
+}
+.box-area .img-area img{
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  
+}
+.socials{
+  margin-top: 30px;
+
+}
+.content i{
+  margin: 0 10px;
+  color: #0a69ed;
+  font-size: 18px;
+
+}
+#testimonial_area .owl nav{
+  position: absolute;
+  top: 50%;
+  width: 100%;
+
+}
+#testimonial_area .owl-prev,
+#testimonial_area .owl-next{
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  color: #0a69ed;
+  border-radius: 50%;
+  text-align: center;
+  background: #fff;
+  position: absolute;
+}
+#testimonial_area .owl-prev{
+  left: -60px;
+  top: 40%;
+  font-size: 40px;
+
+}
+#testimonial_area .owl-next{
+  right: -60px;
+  top: 40%;
+  font-size: 40px;
+  
 }
