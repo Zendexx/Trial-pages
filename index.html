@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <script src="https://kit.fontawesome.com/86e5cb6ee7.js" crossorigin="anonymous"></script>
+  <!-- added header -->
+    <!-- EXTERNAL OWL CAROUSEL CSS CDN LINKS -->
+     <!-- MIn.Css -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <!-- theme.css -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Member Changes</title>
@@ -23,10 +31,11 @@
             </ul>
             <i class="fas fa-bars" onclick="openmenu()"></i>
         </nav> 
-        <div class="header-text">
-            <p id="About-font1">Cascade Events</p>
-            <h1>Bring your <span>Vision</span><br> to life.</h1>
-        </div>
+        <div class="header-textc">
+          <p id="About-font2">Cascade Events</p>
+          <h1 id="About-font3">Let's make your<br> <span> vision</span> come to life</h1>
+          <a href="#serve" class="btn">Learn More</a>
+      </div>
     </div>
     
 </div>
@@ -34,21 +43,121 @@
   <!-- ------- The Card Section Saga -->
   <div class="card-container">
     <div class="card">
-      <img src="images/correct-wolf.jpg">
+      <img src="images/IMG-20230704-WA0007.jpg">
       <div class="card-content">
-        <h3>Gojo Satoru</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque cupiditate est, itaque aperiam, iure enim sed possimus sapiente saepe facere exercitationem provident officiis expedita aliquid accusamus animi non repellat incidunt.</p>
+        <h3>Our services</h3>
+        <p>Click the link to view our comprehensive range of services and discover how we can enhance your experience."</p>
         <button id="open">Services</button>
     <div class="modal-container" id="modal-container">
         <div class="modal">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt beatae provident ea suscipit maxime excepturi minima, architecto sed aperiam eveniet rerum nostrum in voluptate laudantium, consequuntur recusandae ipsa quas assumenda?</p>
+           <!-- OUR SERVICES -------------------------------------------- -->
+    <section id="next-section" style="background-color: #205e43; padding-top: 8%; margin-top: 50px;">
+      <div class="container">
+          <h1 style="color: #fff; font-size: 60px;" id="serve">Our Services</h1>
+      </div>
+      <div class="container" >
+          <p style="color: #fff; font-size: 20px;">
+            "Discover the range of services we offer to bring your vision to life. With our expertise and dedication, we provide comprehensive solutions tailored to your needs. Explore our offerings below."             </p>
+          <div class="services">
+            <ul>
+              <li>Event planning and coordination</li>
+              <li>Venue selection and booking</li>
+              <li>Theme development and decor</li>
+              <li>Entertainment and artist management</li>
+              <li>Audiovisual production and staging</li>
+              <li>On-site event management and logistics</li>
+              <li>RSVP and guest list management</li>
+              <li>Marketing and promotional support</li>
+              <li>Post-event evaluation and analysis</li>
+            </ul>
+          </div>
+          
+        </div>
+        <div class="container-fluid my-5">
+          <div class="row mt-5">
+            <div class="owl-carousel owl-theme">
+              <div class="item mb-4">
+                <div class="card border-0 shadow">
+                  <img src="images/weddings.jpg" class="card-img-top">
+                  <div class="card-body">
+                    <h4>Weddings</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="item mb-4">
+                  <div class="card border-0 shadow">
+                    <img src="https://alwaince.com/wp-content/uploads/2021/05/corporate-events.jpg" class="card-img-top">
+                    <div class="card-body">
+                      <h4>Corporate Events</h4>
+                    </div>
+                  </div>
+                </div>
+                <div class="item mb-4">
+                  <div class="card border-0 shadow">
+                    <img src="images/Graduation.jpg" class="card-img-top">
+                    <div class="card-body">
+                      <h4>Bridal Showers</h4>
+                    </div>
+                  </div>
+                </div>
+                <div class="item mb-4">
+                  <div class="card border-0 shadow">
+                    <img src="https://www.aleitevents.com/wp-content/uploads/2019/02/220805_ABSA_008.jpg" class="card-img-top">
+                    <div class="card-body">
+                      <h4>Business Meetings</h4>
+                    </div>
+                  </div>
+                </div>
+                <div class="item mb-4">
+                  <div class="card border-0 shadow">
+                    <img src="https://5.imimg.com/data5/RA/HA/GLADMIN-36077309/product-launch-events-management-service.png" class="card-img-top">
+                    <div class="card-body">
+                      <h4>Product and project launches</h4>
+                    </div>
+                  </div>
+                </div>
+                <div class="item mb-4">
+                  <div class="card border-0 shadow">
+                    <img src="https://spceventmgt.com/wp-content/uploads/2019/08/bsho2.png" class="card-img-top">
+                    <div class="card-body">
+                      <h4>Baby Showers</h4>
+                    </div>
+                  </div>
+                </div>
+                <div class="item mb-4">
+                  <div class="card border-0 shadow">
+                    <img src="https://a.mktgcdn.com/p/XdW-hekIgcz2Ankiosn3HDBnoIwsmR2ygLOut_hAlzg/704x540.jpg" class="card-img-top">
+                    <div class="card-body">
+                      <h4>House Openings</h4>
+                    </div>
+                  </div>
+                </div>
+                <div class="item mb-4">
+                  <div class="card border-0 shadow">
+                    <img src="images/Fundraisers.jpg" class="card-img-top">
+                    <div class="card-body">
+                      <h4>Fundraisers</h4>
+                    </div>
+                  </div>
+                </div>
+                <div class="item mb-4">
+                  <div class="card border-0 shadow">
+                    <img src="https://images.neventum.com/2013/318/dsc_9203_b0beeac1.jpg" class="card-img-top">
+                    <div class="card-body">
+                      <h4>Exhibitions</h4>
+                    </div>
+                  </div>
+                </div>
+          </div>
+          <a href="https://instagram.com/cascade4events?igshid=MzNlNGNkZWQ4Mg==" class="btn2">View Our Work</a>
+  </section>
             <button id="close">Close</button>
         </div>
     </div>
       </div>
     </div>
     <div class="card">
-      <img src="images/correct-wolf.jpg">
+      <img src="images/chef1.png">
       <div class="card-content">
         <h3>Gojo Satoru</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque cupiditate est, itaque aperiam, iure enim sed possimus sapiente saepe facere exercitationem provident officiis expedita aliquid accusamus animi non repellat incidunt.</p>
@@ -66,11 +175,11 @@
       <div class="card-content">
         <h3>Gojo Satoru</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque cupiditate est, itaque aperiam, iure enim sed possimus sapiente saepe facere exercitationem provident officiis expedita aliquid accusamus animi non repellat incidunt.</p>
-        <button id="open2">Services</button>
-    <div class="modal-container" id="modal-container2">
+        <button id="open3">Services</button>
+    <div class="modal-container" id="modal-container3">
         <div class="modal">
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt beatae provident ea suscipit maxime excepturi minima, architecto sed aperiam eveniet rerum nostrum in voluptate laudantium, consequuntur recusandae ipsa quas assumenda?</p>
-            <button id="close2">Close</button>
+            <button id="close3">Close</button>
         </div>
     </div>
       </div>
@@ -141,5 +250,84 @@
   </footer>
   
     <script src="script.js"></script>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- jQuarey -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+   <!-- Cdn FILES--------------- -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+   <!-- The carousel Configuration -->
+   <script>
+    $('.owl-carousel').owlCarousel({
+    loop:false,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:3
+        }
+    }
+  })
+   </script>
+   <script>
+    $(" .testimonial_slider_area").owlCarousel({
+        autoplay:true,
+        slidespeed:3000,
+        items:3,
+        nav:true,
+        navText:['<i class="bi bi-arrow-left"></i>','<i class="fa-sharp fa-solid fa-arrow-right"></i>'],
+        margin:30,
+        dots:false,
+        responsive:{
+            320:{
+                items:1
+            },
+            767:{
+                items:2
+            },
+            600:{
+                items:3
+            },
+            1000:{
+                items:3
+            }
+        }
+     })
+   </script>
+   <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname)
+    {
+        for(tablink of tablinks)
+        {
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents)
+        {
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab")
+    
+  
+    }
+  </script>
+   <script>
+    var sidemenu = document.getElementById("sidemenu");
+  
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+    </script>
 </body>
 </html>
