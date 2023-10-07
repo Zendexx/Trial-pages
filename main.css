@@ -51,15 +51,15 @@
       align-items: center;
     }
     nav ul li{
-      display: inline-block;
+      display: flex;
       list-style: none;
-      margin: 10px 20px;
+      margin: 25px 20px;
       font-family: 'Nunito Sans', sans-serif;
     }
     nav ul li a{
       color: #f8f8f8;
       text-decoration: none;
-      font-size: 18px;
+      font-size: 22px;
       position: relative;
     }
     nav ul li a::after{
@@ -74,6 +74,27 @@
     }
     nav ul li a:hover::after{
       width: 100%;
+    }
+    nav .fas{
+        display: flex;
+        font-size: 35px;
+        color: #fff;
+    }
+    nav .fas:hover{
+        color: #ff004f;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+    nav ul {
+        background: rgba(32, 94, 67, 0.8); /* Here, the fourth value (0.8) represents the opacity (0 = fully transparent, 1 = fully opaque) */
+        position: fixed;
+        top: 0;
+        right: -500px;
+        width: 350px;
+        height: 100vh;
+        padding-top: 50px;
+        z-index: 2;
+        transition: right 0.5s;
     }
 
     .header-text{
@@ -166,9 +187,6 @@
         background-image: url(images/kitchens-tatu.jpg)
       }
     }
-    nav .fas{
-        display: none;
-    }
 /* --------------- Body Section --------------- */
     .card-container{
         display: flex;
@@ -180,11 +198,11 @@
     }
     .card{
         width: 325px;
-        height: 550px;
+        height: 770px;
         background-color: #f0f0f0;
         border-radius: 8px;
         overflow: hidden;
-        box-shadow: 0px 2px 4px rgb(0,0,0,0.2);
+        box-shadow: 0px 2px 4px rgb(0,0,0,0.7);
         margin: 20px;
     }
     .card img{
@@ -200,7 +218,7 @@
     }
     .card-content p{
         color: #667;
-        font-size: 15px;
+        font-size: 16px;
         line-height: 1.3;
     }
     .card-content .btn-card{
@@ -211,6 +229,11 @@
         border-radius: 4px;
         margin-top: 16px;
         color: #fff;
+    }
+    .card-content .btn-card:hover{
+        background: #205e43;
+        transform: translateY(-3px);
+        transition: 0.5s;
     }
 
 
