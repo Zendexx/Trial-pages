@@ -160,7 +160,7 @@
     }
 
     /* ------------------Media Quarries ------------------- */
-    @media only screen and (max-width: 600px){
+    @media only screen and (max-width: 991px){
     #header{
         background-image: url(images/solo.webp);
         
@@ -169,10 +169,10 @@
         padding-top: 50%;
     }
     #About-font2{
-        font-size: 30px;
+        font-size: 28px;
     }
     #About-font3{
-        font-size: 24px;
+        font-size: 34px;
     }
     .header-text h1{
         font-size: 30px;
