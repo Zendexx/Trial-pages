@@ -139,15 +139,15 @@
     @keyframes change{
       0%
       {
-        background-image: url(images/gallary_5.jpg)
+        background-image: url(images/buger.jpg)
       }
       20%
       {
-        background-image: url(images/gallary_4.jpg)
+        background-image: url(images/pasta.jpg)
       }
       40%
       {
-        background-image: url(images/gallary_1.jpg)
+        background-image: url(images/Food1.jpg)
       }
       60%
       {
