@@ -188,14 +188,35 @@
       }
     }
 /* --------------- Body Section --------------- */
-    .card-container{
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        padding-top: 70px;
-        padding-bottom: 70px;
-        background-image: url(images/Pattern-1.png);
-    }
+    .card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    position: relative; /* Ensure the container is positioned relatively */
+}
+
+    .card-container::before {
+    content: "";
+    background-image: url(images/Cfoodpattern3.jpeg); /* Set the background image */
+    opacity: 0.7; /* Adjust the opacity as needed */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1; /* Place the pseudo-element behind the content */
+}
+    .card-overlay {
+    background-color: rgba(0, 0, 0, 0.05); /* Adjust the color and opacity as needed */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
     .card{
         width: 325px;
         height: 770px;
