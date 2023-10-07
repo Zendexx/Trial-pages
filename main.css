@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Poppins:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Nunito+Sans:opsz@6..12&family=Poppins:wght@400;500;600&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -78,14 +80,18 @@
 
     .header-text h1 span{
       color: #ff004f;
+      font-family: 'Alex Brush', cursive;
+      font-size: 70px;
     }
 
     #About-font2{
       color: aliceblue;
-      font-size: 45px;
+      font-family: 'Alex Brush', cursive;
+      font-size: 70px;
     }
     #About-font3{
       color: #fff;
+      font-family: 'Nunito Sans', sans-serif;
       font-size: 45px;
     }
   
@@ -102,6 +108,8 @@
       transition: background 0.5s;
       font-weight: bold;
       font-size: 25px;
+      font-family: 'Nunito Sans', sans-serif;
+      font-weight: 800;
     }
     .btn:hover{
       border: 1px solid #205e43;
@@ -167,17 +175,17 @@
     .header-text{
         padding-top: 50%;
     }
+    .header-text h1 span{
+        font-size: 50px;
+      }  
     #About-font2{
-        font-size: 28px;
+        font-size: 38px;
     }
     #About-font3{
-        font-size: 34px;
-    }
-    .header-text h1{
-        font-size: 30px;
+        font-size: 32px;
     }
     .btn{
-        font-size: 12px;
+        font-size: 18px;
     }
     nav .fas{
         display: block;
