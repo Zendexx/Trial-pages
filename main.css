@@ -176,7 +176,7 @@
         flex-wrap: wrap;
         padding-top: 70px;
         padding-bottom: 70px;
-        background-image: url(images/Cfood-pattern2.jpg);
+        background-image: url(images/Pattern-1.png);
     }
     .card{
         width: 325px;
@@ -217,10 +217,6 @@
 
     /* ------------------Media Quarries ------------------- */
     @media only screen and (max-width: 991px){
-    #header{
-        background-image: url(images/solo.webp);
-        
-    }
     .header-text{
         padding-top: 50%;
     }
