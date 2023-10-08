@@ -19,7 +19,7 @@
       height: 100vh;
       background-size: cover;
       background-position: center;
-      animation: change 25s infinite ease-in-out;
+      animation: change 20s infinite ease-in-out;
       position: relative;
       z-index: 1;
     }
