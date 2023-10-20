@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-UA-Compatible" content="IE=edge">
+    <meta name="Viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cascade-Kitchens</title>
+    <link rel="stylesheet" href="kitchens.css">
+    <script src="https://kit.fontawesome.com/86e5cb6ee7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- -------Header Section ------------------ -->
+    <div id="header">
+        <div class="overlay">
+          <div class="container">
+            <nav>
+                <img src="images/Cascade_Kitchen.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="index.html" id="About-font1">Home</a></li>
+                    <li><a href="events.html" id="About-font1">Events</a></li>
+                    <li><a href="#footer" id="About-font1">Contact Us</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav> 
+            <div class="header-text">
+                <p id="About-font2">Cascade Kitchens</p>
+                <h1 id="About-font3">"Where flavor meets <span>Elegance</span>, <br> every plate tells a story."</h1>
+            </div>
+        </div>
+      </div>    
+    </div>
+
+<!-- -------- Card section -------------------->
+    <div class="card-container">
+        <div class="card-overlay"></div>
+        <div class="card">
+            <img src="images/download.jpeg" width="500px" height="500px">
+            <div class="card-content">
+                <h3> Our Menu </h3>
+                <p>Are you hungry for a delicious and satisfying meal? Whether you crave for pizza, porridge, chips, salads, or desserts, we have the perfect dish for you. Our restaurant offers a variety of cuisines and flavors, made with fresh and quality ingredients.
+                    Click on the “view more” link below to explore our menu and see some of our mouth-watering photos.</p>
+                <a href="menu.html" class="btn-card">View More</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/chef1.png" width="500px" height="500px">
+            <div class="card-content">
+                <h3> Our Catering </h3>
+                <p>Check out our catering options.We can cater for any type of event, from weddings, birthdays, anniversaries, corporate functions, to family gatherings. We can deliver the food to your venue, or set up a buffet or a live cooking station. We can also provide you with cutlery, crockery, napkins, and other accessories. Click on the “view more” link below to see our catering options.</p>
+                <a href="" class="btn-card">View More</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/our-reviews.png" width="500px" height="500px">
+            <div class="card-content">
+                <h3> Client's Reviews </h3>
+                <p>Check out our client's reviews. They will tell you everything you need to know about our restaurant, from the quality of our food, to the friendliness of our staff, to the cleanliness of our premises. You will see that we have a lot of happy and loyal customers who love our restaurant and recommend it to others. Click on the “view more” link below to read some of our client's reviews.</p>
+                <a href="" class="btn-card">View More</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/chef1.png" width="500px" height="500px">
+            <div class="card-content">
+                <h3> Our Catering </h3>
+                <p>Check out our catering options.We can cater for any type of event, from weddings, birthdays, anniversaries, corporate functions, to family gatherings. We can deliver the food to your venue, or set up a buffet or a live cooking station. We can also provide you with cutlery, crockery, napkins, and other accessories. Click on the “view more” link below to see our catering options.</p>
+                <a href="" class="btn-card">View More</a>
+            </div>
+        </div>
+        <div class="card-overlay"></div>
+    </div>
+
+<!-- ------------------Footer Section ----------------------- -->
+    <footer class="footer" id="footer">
+        <div class="footer-container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Cascade Company Limited</h4>
+                    <ul>
+                        <li><a href="events.html">Cascade Events</a></li>
+                        <li><a href="#">Cascade Kitchens</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact Us</h4>
+                    <ul>
+                        <li><a href="#">0792000888 -</a></li>
+                        <li><a href="#">0792000888 -</a></li>
+                        <li><a href="#">0704044181 -</a></li>
+                        <li><a href="#">0797111444 -</a></li>
+                        <h4>Emails</h4>
+                        <li><a href="#">corporate@Cascade.ac.ke</a></li>
+                        <li><a href="#">corporate@CascadeKenya@gmail.com</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Locations</h4>
+                    <ul>
+                        <li><a href="#">Cascade premier</a></li>
+                        <li><a href="#">Cascade Main</a></li>
+                        <li><a href="#">Cascade annex</a></li>
+                        <li><a href="#">Cascade Tatu city</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Follow us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Script for the Nav bar in Smartphones -->
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+    
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-350px";
+        }
+    </script>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname)
+        {
+            for(tablink of tablinks)
+            {
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents)
+            {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("active-tab")
+        
+    
+        }
+    </script>
+</body>
+</html>
